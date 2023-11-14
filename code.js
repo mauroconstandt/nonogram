@@ -465,7 +465,7 @@ function life_lost(){
     current_lives += -1
     if (current_lives == 0){
         stopTimer();
-        alert("verloren, speel opnieuw!");
+        alert("You lost, play again!");
         let puzzle = puzzle_check();
         difficulty_choose(puzzle);
     } else {
