@@ -540,7 +540,7 @@ function square_click_handler(cell){
         } else if (puzzle[row][col] == 0){
             moves_up();
             puzzle[row][col] = 3
-            alert("fout!");
+            alert("Incorrect!");
             life_lost();
         }
     }
@@ -561,7 +561,7 @@ function square_click_handler(cell){
         stopTimer();
         let moves_end = moves[0];
         let time = document.getElementById("timer").innerHTML;
-        let string = 'Proficiat, je hebt in ' + moves_end + ' zetten en in ' + time + ' seconden gewonnen!';
+        let string = 'Congratulations, you won in ' + moves_end + ' moves and in ' + time + ' seconds!';
         alert(string);
 
     }
