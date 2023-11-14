@@ -1,0 +1,103 @@
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    width: 80px;
+    height: 50px;
+    border: 1px solid grey;
+    background-color: white;
+    font-size: medium; 
+}
+
+.col_values .corner,
+.row_values,
+.col_values td {
+    border: 1px solid black;
+    text-align: center;
+    visibility: visible;
+}
+
+#diff {
+    visibility: hidden;
+}
+
+.filled_trivial {
+    background-color: black;
+}
+
+.filled_easy {
+    background-color: #D2B48C;
+}
+
+.filled_intermediate {
+    background-color: #B22222;
+}
+
+.filled_hard {
+    background-color: #CC0000;
+}
+
+.empty {
+    background-color: grey;
+}
+
+#mode button{
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    margin-right: 1px;
+}
+
+.choose_diff {
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+}
+
+#moves {
+    margin-right: 50px;
+    font-size: xx-large;
+}
+
+.start_screen {
+    display: flex;
+    justify-content: center;
+}
+
+.start_screen button {
+    font-size: xx-large;
+    margin: 1px;
+}
+
+#lives {
+    display: flex;
+    font-size: xx-large;
+}
+
+#timer {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: xx-large;
+}
+
+.try_again {
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    margin-left: 1px;
+}
