@@ -455,7 +455,7 @@ function lives_update(){
     let result = '';
     let current_lives = lives[0];
     for(let i = 0; i<current_lives; i++){
-        result += '<img src="/heart.png" width="50" height="50" alt="X">';
+        result += '<img src="/nonogram/heart.png" width="50" height="50" alt="X">';
     }
     document.getElementById("lives").innerHTML = `Lives:  ${result}`;
 }
