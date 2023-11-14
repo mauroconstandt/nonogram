@@ -175,7 +175,7 @@ function difficulty_choose(diff){
     lives_update();
     document.getElementById("nonogram").innerHTML = draw_puzzle(diff);
     document.getElementById("moves").innerHTML = 'Move counter: 0'
-    document.getElementById("mode").innerHTML = '<button onclick="mode_swap()">inkleuren</button>';
+    document.getElementById("mode").innerHTML = '<button onclick="mode_swap()">color</button>';
     resetTimer();
     startTimer();
     if (diff == trivial){
@@ -199,10 +199,10 @@ function try_again(){
 
 function mode_swap(){
     let mode_current = document.getElementById("mode").innerHTML;
-    if (mode_current == '<button onclick="mode_swap()">inkleuren</button>'){
-        document.getElementById("mode").innerHTML = '<button onclick="mode_swap()">afkleuren</button>';
+    if (mode_current == '<button onclick="mode_swap()">color</button>'){
+        document.getElementById("mode").innerHTML = '<button onclick="mode_swap()">no color</button>';
     } else {
-        document.getElementById("mode").innerHTML = '<button onclick="mode_swap()">inkleuren</button>';
+        document.getElementById("mode").innerHTML = '<button onclick="mode_swap()">color</button>';
     }
 }
 
