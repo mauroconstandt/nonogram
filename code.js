@@ -208,7 +208,7 @@ function mode_swap(){
 
 function mode_check(){
     let mode_current = document.getElementById("mode").innerHTML
-    if (mode_current == '<button onclick="mode_swap()">inkleuren</button>'){
+    if (mode_current == '<button onclick="mode_swap()">color</button>'){
         return 1;
     } else {
         return 0;
