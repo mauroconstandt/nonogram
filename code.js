@@ -561,7 +561,7 @@ function square_click_handler(cell){
         stopTimer();
         let moves_end = moves[0];
         let time = document.getElementById("timer").innerHTML;
-        let string = 'Congratulations, you won in ' + moves_end + ' moves and in ' + time + ' seconds!';
+        let string = 'Congratulations, you won in ' + moves_end + ' moves and in ' + seconds + ' seconds!';
         alert(string);
 
     }
